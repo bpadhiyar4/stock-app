@@ -6,6 +6,6 @@ jobs:
   Explore-Github-Actions:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "first job is triggered"
-      -run: echo "--------- Developed by Bharat Padhiyar -------------"
-      -run: echo "Action ended"
+      - run: echo "first job is triggered"
+      - run: echo "--------- Developed by Bharat Padhiyar -------------"
+      - run: echo "Action ended"
