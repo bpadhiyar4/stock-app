@@ -9,7 +9,7 @@ jobs:
       - run: echo "Fetching repositoy into github worlflow"
       - uses: action/cheeckout@v2
       - name: Set up JDK 11
-      - run: echo "setting up OpenJDK Java 11 on ubuntu"
+        run: echo "setting up OpenJDK Java 11 on ubuntu"
         uses: action/setup-java@v2
         with:
           java-version: '11'
